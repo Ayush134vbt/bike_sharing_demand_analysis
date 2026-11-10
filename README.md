@@ -124,6 +124,20 @@ Negative binomial regression achieved the lowest RMSE, indicating slightly bette
 
 However, differences between the three regression models were relatively small.
 
+## Key Visualisations
+
+### Hourly Rental Demand
+
+![Average Hourly Bike Rental Demand](figures/hourly_demand.png)
+
+### Temperature and Rental Demand
+
+![Temperature vs Bike Rental Demand](figures/temperature_demand.png)
+
+### Regression Model Comparison
+
+![Model Performance Comparison](figures/model_comparison.png)
+
 ## Model Diagnostics
 
 ### Multiple Linear Regression
@@ -195,7 +209,8 @@ Future work could explore interaction effects, lagged rental demand, and time-se
 
 ## Project Structure
 
-`bike_sharing_demand_analysis/
+```
+bike_sharing_demand_analysis/
 │
 ├── data/
 │   └── hour.csv
@@ -212,6 +227,7 @@ Future work could explore interaction effects, lagged rental demand, and time-se
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
 ## Reproducing the Analysis
 
