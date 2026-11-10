@@ -195,8 +195,7 @@ Future work could explore interaction effects, lagged rental demand, and time-se
 
 ## Project Structure
 
-```text
-bike_sharing_demand_analysis/
+`bike_sharing_demand_analysis/
 │
 ├── data/
 │   └── hour.csv
@@ -206,11 +205,13 @@ bike_sharing_demand_analysis/
 │   └── 02_regression_modelling.ipynb
 │
 ├── figures/
+│   ├── hourly_demand.png
+│   ├── temperature_demand.png
+│   └── model_comparison.png
 │
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-```
 
 ## Reproducing the Analysis
 
