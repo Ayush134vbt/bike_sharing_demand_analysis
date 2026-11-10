@@ -10,7 +10,7 @@ The project aims to identify patterns in bicycle rental demand, explore relation
 
 1. How does bicycle rental demand vary throughout the day?
 2. How is temperature associated with hourly bicycle rental demand?
-3. How are weather conditions associated with bicycle rental demand?
+3. How is season associated with bicycle rental demand?
 4. How accurately can statistical models predict hourly bicycle rental counts?
 
 ## Dataset
