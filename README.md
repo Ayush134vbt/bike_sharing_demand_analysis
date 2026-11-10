@@ -126,17 +126,29 @@ However, differences between the three regression models were relatively small.
 
 ## Key Visualisations
 
+## Key Visualisations
+
 ### Hourly Rental Demand
 
 ![Average Hourly Bike Rental Demand](figures/hourly_demand.png)
+
+Rental demand peaks around 8 AM and 5–6 PM, consistent
+with typical commuting hours.
 
 ### Temperature and Rental Demand
 
 ![Temperature vs Bike Rental Demand](figures/temperature_demand.png)
 
+Temperature exhibits a moderate positive correlation
+with hourly rental demand (r = 0.40).
+
 ### Regression Model Comparison
 
 ![Model Performance Comparison](figures/model_comparison.png)
+
+All three regression models outperform the baseline.
+Poisson regression achieves the lowest MAE, while
+negative binomial regression achieves the lowest RMSE.
 
 ## Model Diagnostics
 
